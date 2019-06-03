@@ -114,6 +114,4 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 
 /calculator.iml
-.gitignore
 .idea/
-src/
