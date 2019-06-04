@@ -18,7 +18,7 @@ public class Main {
         while (true) {
             boolean correctOperation = false;
             String in = ConsoleHelper.readString();
-            if ("exit".equals(in)) {
+            if ("exit".equalsIgnoreCase(in)) {
                 break;
             }
             for (Calculator calc :availableCalcs) {
